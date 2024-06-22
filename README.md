@@ -30,7 +30,11 @@ Here are the visualizations of the actual vs. predicted medical costs for some o
 #### Random Forest Regression
 ![Random Forest Regression](https://github.com/Asim-Vinayak-ML-Projects/HealthCostPredictor/assets/140016882/5f5304f3-4da1-417b-9b96-6c2e547a9d11)
 
+**Interpretation**: The scatter plot for the Random Forest model shows that the predicted medical costs are closely aligned with the actual costs, indicating high accuracy and good model performance. The points are distributed along the line \(y = x\), demonstrating the model's ability to predict values that are very close to the true values.
+
 ![Support Vector Regression](https://github.com/Asim-Vinayak-ML-Projects/HealthCostPredictor/assets/140016882/fc06da2b-e711-40c1-9332-3d94fbdd3fde)
+
+**Interpretation**: The residual plot for the Random Forest model shows that the residuals are centered around zero with no clear pattern. This indicates that the model's errors are randomly distributed, suggesting that the model is a good fit for the data. The spread of residuals is relatively consistent across different test samples, demonstrating the model's ability to generalize well to unseen data.
 
 ## Conclusion
 The Random Forest model outperformed the other regression models due to its ability to handle non-linear relationships and interactions between features. It combines the predictions from multiple decision trees to reduce overfitting and improve generalization. As a result, it provides the most accurate predictions for the medical costs in this dataset.
