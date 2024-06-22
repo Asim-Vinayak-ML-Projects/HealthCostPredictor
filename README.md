@@ -47,7 +47,7 @@ The Random Forest model outperformed the other regression models due to its abil
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone "https://github.com/Asim-Vinayak-ML-Projects/HealthCostPredictor.git"
    cd <repository-directory>
 
 2. Run the Jupyter Notebook::
